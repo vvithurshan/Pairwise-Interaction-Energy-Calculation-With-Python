@@ -8,6 +8,7 @@ This script is designed to calculate the pairwise interaction energy between res
 - Outputs a pickle file containing van der Waals energy, electrostatic energy, and total energy for each frame.
 - Demonstrates a high correlation of 99% with the results obtained from the NAMD molecular dynamics engine.
 - Provides significant speed improvements for energy calculations compared to other methods.
+- Utilizes multiple cores for parallel processing, enabling faster computations.
 
 ## Usage
 
