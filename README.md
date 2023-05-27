@@ -17,6 +17,8 @@ This script is designed to calculate the pairwise interaction energy between res
 3. Run the script to perform the pairwise energy calculations.
 4. The output will be saved as a pickle file, which can be easily loaded and analyzed using Python.
 5. Analyze the results, including the van der Waals energy, electrostatic energy, and total energy at each frame.
+6. Utilize the calculated pairwise interaction energies as weights to construct a protein network. Each residue can be represented as a node, and the energy values can be used as the weights of the edges connecting the nodes.
+7. Analyze the protein network to gain insights into the intermolecular interactions and their strengths within the protein structure.
 
 ## Requirements
 
