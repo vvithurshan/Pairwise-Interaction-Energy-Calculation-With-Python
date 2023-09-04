@@ -140,7 +140,8 @@ def Energy_Calculation(pairProduct):
                     epsilon = np.sqrt(epsilon_a1 * epsilon_a2)
                     sigma = (sigma_a1 + sigma_a2)
 
-                    LJ_potentials += LJ_Energy(epsilon, sigma, r)
+                    if r > sigma:
+                        LJ_potentials += LJ_Energy(epsilon, sigma, r)
 
                     Electrostatics += Ele_Energy(charge_a1, charge_a2, r)
             
